@@ -52,7 +52,7 @@ The script in run_analysis.R does the following:
 
 
 
-#### To complete Step 1:
+##### To complete Step 1:
 
 - Download the zip file from the given URL
 
@@ -74,7 +74,7 @@ The script in run_analysis.R does the following:
 
 
 
-#### To complete Step 2:
+##### To complete Step 2:
 
 - From the single data set in Step 1, take a subset of only the measurements on the mean and standard deviation for each measurement
 
@@ -88,7 +88,7 @@ The script in run_analysis.R does the following:
 
 
 
-#### To complete Step 3:
+##### To complete Step 3:
 
 - Extract the list of activity names from 'activity_labels.txt'
 
@@ -100,7 +100,7 @@ The script in run_analysis.R does the following:
 
 
 
-#### To complete Step 4:
+##### To complete Step 4:
 
 For all variable names in the data set from Step 3,
 
@@ -135,15 +135,40 @@ For all variable names in the data set from Step 3,
 
 
 
+##### To complete Step 5:
+
+Note: It is required to install the 'dplyr' package  in order to run this script
+
+- Load the library for 'dplyr'
+
+- Group the data set from Step 4 by activity and subject
+
+- Create a data set that computes the mean of each variable for each group
+
+- Note: This will result in a tidy data set which meets the following criteria:
+
+	* Each variable forms a column
+	* Each observation forms a row
+	* Each type of observation unit forms a table
+
+- Note: Reference is taken from the "Tidy Data" paper by Hadley Wickham
 
 
+
+##### For submission:
+
+- Write the data set from Step 5 to a text file 
+
+- Note: The file name is "step5tidydata.txt" that will be saved in the working directory
+
+- To view the text file in R, please refer to the last 2 lines of codes included as comments in run_analysis.R
 
 
 
 
 ==============
 
-References:  
+### References:  
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
@@ -152,6 +177,3 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
-
-
-[2] 
