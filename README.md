@@ -108,16 +108,16 @@ For all variable names in the data set from Step 3,
 
 - Replace short forms with more descriptive forms: 
 
-		* 't' (1st character) -> time
-		* 'f' (1st character) -> frequency
-		* 'acc' -> 'accelerometer'
-		* 'gyro' -> 'gyroscope'
-		* 'mag' -> 'magnitude' 
-		* '-x' -> 'indirectionx'
-		* '-y' -> 'indirectiony'
-		* '-z' -> 'indirectionz'
-		* '-mean' -> 'meanvalue'
-		* '-std' -> 'standarddeviation'
+	* 't' (1st character) -> 'time'
+	* 'f' (1st character) -> 'frequency'
+	* 'acc' -> 'accelerometer'
+	* 'gyro' -> 'gyroscope'
+	* 'mag' -> 'magnitude' 
+	* '-x' -> 'indirectionx'
+	* '-y' -> 'indirectiony'
+	* '-z' -> 'indirectionz'
+	* '-mean' -> 'meanvalue'
+	* '-std' -> 'standarddeviation'
 
 - There are some variables with erroneous names that contain unnecessary repetition of 'body'.  For e.g. 'fBodyBodyGyroMag-mean()'.  For such cases, the variable names will be corrected to contain a single 'body' only.
 
