@@ -52,7 +52,7 @@ The script in run_analysis.R does the following:
 
 
 
-##### To complete Step 1:
+##### For Step 1:
 
 - Download the zip file from the given URL
 
@@ -66,7 +66,7 @@ The script in run_analysis.R does the following:
 
 - Note: The files within the "Inertial Signals" folders are not required for this project
 
-- Extract the list of names of each feature variable from 'features.txt'
+- Extract the name of each feature variable from 'features.txt'
 
 - Name all the columns in the data sets: 'activity', 'subject', and the corresponding feature variable name
 
@@ -74,7 +74,7 @@ The script in run_analysis.R does the following:
 
 
 
-##### To complete Step 2:
+##### For Step 2:
 
 - From the single data set in Step 1, take a subset of only the measurements on the mean and standard deviation for each measurement
 
@@ -88,7 +88,7 @@ The script in run_analysis.R does the following:
 
 
 
-##### To complete Step 3:
+##### For Step 3:
 
 - Extract the list of activity names from 'activity_labels.txt'
 
@@ -100,7 +100,7 @@ The script in run_analysis.R does the following:
 
 
 
-##### To complete Step 4:
+##### For Step 4:
 
 For all variable names in the data set from Step 3,
 
@@ -119,7 +119,7 @@ For all variable names in the data set from Step 3,
 	* '-mean' -> 'meanvalue'
 	* '-std' -> 'standarddeviation'
 	
-- There are some variables with erroneous names that contain unnecessary repetition of "body".  For e.g. 'fBodyBodyGyroMag-mean()'.  For such cases, the variable names will be corrected to a single "body" only.
+- There are some variables with erroneous names that contain unnecessary repetition of "body".  For e.g. 'fBodyBodyGyroMag-mean()'.  For such cases, the variable names will be corrected to contain a single "body" only.
 
 - Remove "(" and ")" characters.  For e.g. tBodyAccMag-mean() 
 
@@ -129,13 +129,13 @@ For all variable names in the data set from Step 3,
 
 - Note: It is generally not recommended to have symbols in the variable names
 
-- Note: Reference is taken from the lecture material "04_01_editingTextVariables" which recommends that the names of variables should be (i) all lower case, (ii) descriptive, and (iii) not have underscores or dots or white spaces
+- Note: Reference is taken from the Coursera lecture material "04_01_editingTextVariables" which recommends that the names of variables should be (i) all lower case, (ii) descriptive, and (iii) not have underscores or dots or white spaces
 
 - Note: Please refer to CodeBook.md for a full description of each variable name
 
 
 
-##### To complete Step 5:
+##### For Step 5:
 
 Note: It is required to install the 'dplyr' package  in order to run this script
 
@@ -151,7 +151,7 @@ Note: It is required to install the 'dplyr' package  in order to run this script
 	* Each observation forms a row
 	* Each type of observation unit forms a table
 
-- Note: Reference is taken from the "Tidy Data" paper by Hadley Wickham
+- Note: The above criteria is referenced from the "Tidy Data" paper by Hadley Wickham
 
 
 
