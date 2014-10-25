@@ -52,8 +52,7 @@ The script in run_analysis.R does the following:
 
 
 
-
-To complete Step 1:
+#### To complete Step 1:
 
 - Download the zip file from the given URL
 
@@ -75,8 +74,7 @@ To complete Step 1:
 
 
 
-
-To complete Step 2:
+#### To complete Step 2:
 
 - From the single data set in Step 1, take a subset of only the measurements on the mean and standard deviation for each measurement
 
@@ -90,8 +88,7 @@ To complete Step 2:
 
 
 
-
-To complete Step 3:
+#### To complete Step 3:
 
 - Extract the list of activity names from 'activity_labels.txt'
 
@@ -103,8 +100,7 @@ To complete Step 3:
 
 
 
-
-To complete Step 4:
+#### To complete Step 4:
 
 For all variable names in the data set from Step 3,
 
@@ -127,13 +123,18 @@ For all variable names in the data set from Step 3,
 
 - Remove "(" and ")" characters.  For e.g. tBodyAccMag-mean() 
 
-- This will re-label the data set from Step 3 to have descriptive variable names
+- The above points will re-label the data set from Step 3 to have descriptive variable names
 
 - Note: The resulting variable names are very long and hence may not be easy for human reading.  However, they are more descriptive than the original form which would meet the project requirements.
 
+- Note: It is generally not recommended to have symbols in the variable names
+
 - Note: Reference is taken from the lecture material "04_01_editingTextVariables" which recommends that the names of variables should be (i) all lower case, (ii) descriptive, and (iii) not have underscores or dots or white spaces
 
-- Note: Please refer to CodeBook.md for a full description of each variable
+- Note: Please refer to CodeBook.md for a full description of each variable name
+
+
+
 
 
 
