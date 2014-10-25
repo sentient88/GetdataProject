@@ -33,20 +33,24 @@ In the repo: GetdataProject, there are 3 files:
 
 * 'README.md' - Provides the project background and the details of how the script in 'run.analysis.R' works.
 
-* 'CodeBook.md' - Explains the variables in the processed tidy data set (i.e. final output)
+* 'CodeBook.md' - Explains the variables in the processed tidy data set (i.e. the final output)
 
 
 
 ==============
 
 
-Note: For more information on the original data set, please refer to the README.md inside the zip file that is downloaded from the given URL.
+Note: For more information on the original data sets, please refer to the README.md inside the zip file that is downloaded from the given URL.
+
 
 
 ### Understanding 'run_analysis.R'
 
 
+
 The script in run_analysis.R does the following:
+
+
 
 
 To complete Step 1:
@@ -70,17 +74,21 @@ To complete Step 1:
 - Merge all these data sets into a single data set with the following column order: 'activity', 'subject', and the list of 'feature variables'
 
 
+
+
 To complete Step 2:
 
-- From the single data set in Step 1, subset only the measurements on the mean and standard deviation for each measurement
+- From the single data set in Step 1, take a subset of only the measurements on the mean and standard deviation for each measurement
 
-- Note: This means that only those features with variable names that contain "-mean()" or "-std()" will be extracted.  For e.g. tBodyAccMag-mean() and fBodyAccJerk-std()-Y
+- Note: This means that only those features with variable names that contain '-mean()' or '-std() will be extracted.  For e.g. 'tBodyAccMag-mean()' and 'fBodyAccJerk-std()-Y'
 
-- Note: Those features with variables that contain "-meanFreq()" will be excluded.  For e.g. fBodyAccJerk-meanFreq()-X
+- Note: Those features with variables that contain '-meanFreq()' will be excluded.  For e.g. 'fBodyAccJerk-meanFreq()-X'
 
-- Note: Those features with angle() variable will be excluded too.  For e.g. angle(tBodyGyroMean,gravityMean)
+- Note: Those features with angle() variable will be excluded too.  For e.g. 'angle(tBodyGyroMean,gravityMean)'
 
 - This will result in a smaller single data set with the following column order: 'activity', 'subject', and the reduced list of 'feature variables' for mean and standard deviation measurements only
+
+
 
 
 To complete Step 3:
@@ -94,6 +102,8 @@ To complete Step 3:
 - This will result in a similar data set as Step 2, but with descriptive activity names instead of activity codes
 
 
+
+
 To complete Step 4:
 
 For all variable names in the data set from Step 3,
@@ -102,17 +112,28 @@ For all variable names in the data set from Step 3,
 
 - Replace short forms with more descriptive forms: 
 
-	** 'acc' -> 'accelerometer'
-	** 'gyro' -> 'gyroscope'
-	** 'mag' -> 'magnitude' 
+	* 't' (1st character) -> time
+	* 'f' (1st character) -> frequency
+	* 'acc' -> 'accelerometer'
+	* 'gyro' -> 'gyroscope'
+	* 'mag' -> 'magnitude' 
+	* '-x' -> 'indirectionx'
+	* '-y' -> 'indirectiony'
+	* '-z' -> 'indirectionz'
+	* '-mean' -> 'meanvalue'
+	* '-std' -> 'standarddeviation'
+	
+- There are some variables with erroneous names that contain unnecessary repetition of "body".  For e.g. 'fBodyBodyGyroMag-mean()'.  For such cases, the variable names will be corrected to a single "body" only.
 
 - Remove "(" and ")" characters.  For e.g. tBodyAccMag-mean() 
 
-- This will re-label the data set from Step 3 to have descriptive variable names.
+- This will re-label the data set from Step 3 to have descriptive variable names
 
-- Note: In this case, all symbols will be removed, and all characters will be in lower case.
+- Note: The resulting variable names are very long and hence may not be easy for human reading.  However, they are more descriptive than the original form which would meet the project requirements.
 
-- Note: The resulting variable names are very long and hence may not be easy for human reading.  However, they are fully descriptive which is the requirement of the project.
+- Note: Reference is taken from the lecture material "04_01_editingTextVariables" which recommends that the names of variables should be (i) all lower case, (ii) descriptive, and (iii) not have underscores or dots or white spaces
+
+- Note: Please refer to CodeBook.md for a full description of each variable
 
 
 
