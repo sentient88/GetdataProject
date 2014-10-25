@@ -64,7 +64,7 @@ The script in run_analysis.R does the following:
 
 - Read the following data sets in 'test' folder in R: 'X_test.txt', 'y_test.txt', 'subject_test.txt'
 
-- Note: The files within the "Inertial Signals" folders are not required for this project
+- Note: The files within the 'Inertial Signals' folders are not required for this project
 
 - Extract the name of each feature variable from 'features.txt'
 
@@ -108,20 +108,20 @@ For all variable names in the data set from Step 3,
 
 - Replace short forms with more descriptive forms: 
 
-	* 't' (1st character) -> time
-	* 'f' (1st character) -> frequency
-	* 'acc' -> 'accelerometer'
-	* 'gyro' -> 'gyroscope'
-	* 'mag' -> 'magnitude' 
-	* '-x' -> 'indirectionx'
-	* '-y' -> 'indirectiony'
-	* '-z' -> 'indirectionz'
-	* '-mean' -> 'meanvalue'
-	* '-std' -> 'standarddeviation'
-	
-- There are some variables with erroneous names that contain unnecessary repetition of "body".  For e.g. 'fBodyBodyGyroMag-mean()'.  For such cases, the variable names will be corrected to contain a single "body" only.
+		* 't' (1st character) -> time
+		* 'f' (1st character) -> frequency
+		* 'acc' -> 'accelerometer'
+		* 'gyro' -> 'gyroscope'
+		* 'mag' -> 'magnitude' 
+		* '-x' -> 'indirectionx'
+		* '-y' -> 'indirectiony'
+		* '-z' -> 'indirectionz'
+		* '-mean' -> 'meanvalue'
+		* '-std' -> 'standarddeviation'
 
-- Remove "(" and ")" characters.  For e.g. tBodyAccMag-mean() 
+- There are some variables with erroneous names that contain unnecessary repetition of 'body'.  For e.g. 'fBodyBodyGyroMag-mean()'.  For such cases, the variable names will be corrected to contain a single 'body' only.
+
+- Remove '(' and ')' characters.  For e.g. 'tBodyAccMag-mean()'
 
 - The above points will re-label the data set from Step 3 to have descriptive variable names
 
@@ -129,7 +129,7 @@ For all variable names in the data set from Step 3,
 
 - Note: It is generally not recommended to have symbols in the variable names
 
-- Note: Reference is taken from the Coursera lecture material "04_01_editingTextVariables" which recommends that the names of variables should be (i) all lower case, (ii) descriptive, and (iii) not have underscores or dots or white spaces
+- Note: Reference is taken from the Coursera lecture material '04_01_editingTextVariables' which recommends that the names of variables should be (i) all lower case, (ii) descriptive, and (iii) not have underscores or dots or white spaces
 
 - Note: Please refer to CodeBook.md for a full description of each variable name
 
@@ -151,7 +151,7 @@ Note: It is required to install the 'dplyr' package  in order to run this script
 	* Each observation forms a row
 	* Each type of observation unit forms a table
 
-- Note: The above criteria is referenced from the "Tidy Data" paper by Hadley Wickham
+- Note: The above criteria is referenced from the 'Tidy Data' paper by Hadley Wickham
 
 
 
@@ -159,9 +159,9 @@ Note: It is required to install the 'dplyr' package  in order to run this script
 
 - Write the data set from Step 5 to a text file 
 
-- Note: The file name is "step5tidydata.txt" that will be saved in the working directory
+- Note: The file name is 'step5tidydata.txt' that will be saved in the working directory
 
-- To view the text file in R, please refer to the last 2 lines of codes included as comments in run_analysis.R
+- To view the text file in R, please refer to the last 2 lines of codes included as comments in 'run_analysis.R'
 
 
 
@@ -176,4 +176,4 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-For more information about this dataset contact: activityrecognition@smartlab.ws
+For more information about this dataset, please contact: activityrecognition@smartlab.ws
