@@ -176,4 +176,8 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-For more information about this dataset, please contact: activityrecognition@smartlab.ws
+For more information about this dataset, please contact : activityrecognition@smartlab.ws
+
+
+
+==============

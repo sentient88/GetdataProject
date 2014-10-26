@@ -193,5 +193,5 @@ write.table(tidydata, file = "step5tidydata.txt", row.names = FALSE)
 ## data <- read.table("step5tidydata.txt", header = TRUE)
 ## View(data)
 
-
+##
 ##############################################################
