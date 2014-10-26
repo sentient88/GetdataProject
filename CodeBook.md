@@ -3,7 +3,11 @@
 ### Code Book
 
 
-Running the full script in 'run_analysis.R' will create a tidy data set that contains 68 variables with 180 observations
+Running the full script in 'run_analysis.R' will create a tidy data set that contains 68 variables with 180 observations.
+
+The original data sets are obtained from the given URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+For more details on the project, please refer to README file located in the same repo.
 
 
 ====================

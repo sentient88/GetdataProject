@@ -88,7 +88,7 @@ The script in run_analysis.R does the following :
 
 
 
-##### For Step 3:
+##### For Step 3 :
 
 - Extract the list of activity names from 'activity_labels.txt'
 
@@ -100,7 +100,7 @@ The script in run_analysis.R does the following :
 
 
 
-##### For Step 4:
+##### For Step 4 :
 
 For all variable names in the data set from Step 3,
 
@@ -145,13 +145,13 @@ Note : It is required to install the 'dplyr' package  in order to run this scrip
 
 - Create a data set that computes the mean of each variable for each group
 
-- Note: This will result in a tidy data set which meets the following criteria :
+- Note : This will result in a tidy data set which meets the following criteria :
 
 	* Each variable forms a column
 	* Each observation forms a row
 	* Each type of observation unit forms a table
 
-- Note: The above criteria is referenced from the 'Tidy Data' paper by Hadley Wickham
+- Note : The above criteria is referenced from the 'Tidy Data' paper by Hadley Wickham
 
 
 
