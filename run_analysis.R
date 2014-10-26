@@ -38,7 +38,7 @@ merge3 <- rbind(straindata, stestdata)
 ## Reading data from feature.txt
 
 features <- read.table("UCI HAR Dataset/features.txt")
-my_col <- as.vector(features[,2])
+my_col <- as.vector(features[, 2])
 
 
 ## Naming the columns
@@ -81,12 +81,12 @@ merge_all3 <- merge_all2[, -grep("meanFreq", colnames(merge_all2))]
 
 actlabels <- read.table("UCI HAR Dataset/activity_labels.txt")
 
-activity1 <- tolower(as.character(actlabels[1,2]))
-activity2 <- tolower(as.character(actlabels[2,2]))
-activity3 <- tolower(as.character(actlabels[3,2]))
-activity4 <- tolower(as.character(actlabels[4,2]))
-activity5 <- tolower(as.character(actlabels[5,2]))
-activity6 <- tolower(as.character(actlabels[6,2]))
+activity1 <- tolower(as.character(actlabels[1, 2]))
+activity2 <- tolower(as.character(actlabels[2, 2]))
+activity3 <- tolower(as.character(actlabels[3, 2]))
+activity4 <- tolower(as.character(actlabels[4, 2]))
+activity5 <- tolower(as.character(actlabels[5, 2]))
+activity6 <- tolower(as.character(actlabels[6, 2]))
 
 
 ## Replace the activity codes with the respective activity names
