@@ -20,10 +20,10 @@ Running the full script in 'run_analysis.R' will create a tidy data set that con
    
 ====================
    
-#### List of Variables :
+### List of Variables :
    
    
-1. activity : 
+###### (1) activity : 
 
 There are 6 types of activities in total.  This is referenced from 'activity_labels.txt' in the original data sets.
    
@@ -35,58 +35,87 @@ There are 6 types of activities in total.  This is referenced from 'activity_lab
 		* (6) - laying
    
    
-2. subject : 
+###### (2) subject : 
 
 There are 30 participants (i.e. subjects) in total.  They are numbered from 1 to 30.
    
    
-##### Note: 
+Note: 
    
 From the resulting data set, it is observed that every subject had participated in every activity.  Hence there should be (30 x 6) = 180 observations, which is in line with the resulting tidy data set.
 
 
-3. timebodyaccelerometermeanvalueindirectionx : 
+
+###### (3) timebodyaccelerometermeanvalueindirectionx : 
 
 Mean value of time domain signals for the body acceleration signals in the X direction  (corresponds to 'tBodyAcc-mean()-X' in the original data sets)
 
 
-- (4) timebodyaccelerometermeanvalueindirectiony : mean value of time domain signals for the body acceleration signals in the Y direction  (corresponds to 'tBodyAcc-mean()-Y' in the original data sets)
+###### (4) timebodyaccelerometermeanvalueindirectiony : 
+
+Mean value of time domain signals for the body acceleration signals in the Y direction  (corresponds to 'tBodyAcc-mean()-Y' in the original data sets)
 
 
-- (5) timebodyaccelerometermeanvalueindirectionz : mean value of time domain signals for the body acceleration signals in the Z direction  (corresponds to 'tBodyAcc-mean()-Z' in the original data sets)
+###### (5) timebodyaccelerometermeanvalueindirectionz : 
+
+Mean value of time domain signals for the body acceleration signals in the Z direction  (corresponds to 'tBodyAcc-mean()-Z' in the original data sets)
 
 
-- (6) timebodyaccelerometerstandarddeviationindirectionx : standard deviation of time domain signals for the body acceleration signals in the X direction  (corresponds to 'tBodyAcc-std()-X' in the original data sets)
+###### (6) timebodyaccelerometerstandarddeviationindirectionx : 
+
+Standard deviation of time domain signals for the body acceleration signals in the X direction  (corresponds to 'tBodyAcc-std()-X' in the original data sets)
 
 
-- (7) timebodyaccelerometerstandarddeviationindirectiony : standard deviation of time domain signals for the body acceleration signals in the Y direction  (corresponds to 'tBodyAcc-std()-Y' in the original data sets)
+###### (7) timebodyaccelerometerstandarddeviationindirectiony : 
+
+Standard deviation of time domain signals for the body acceleration signals in the Y direction  (corresponds to 'tBodyAcc-std()-Y' in the original data sets)
 
 
-- (8) timebodyaccelerometerstandarddeviationindirectionz : standard deviation of time domain signals for the body acceleration signals in the Z direction  (corresponds to 'tBodyAcc-std()-Z' in the original data sets)
+###### (8) timebodyaccelerometerstandarddeviationindirectionz : 
+
+Standard deviation of time domain signals for the body acceleration signals in the Z direction  (corresponds to 'tBodyAcc-std()-Z' in the original data sets)
 
 
-- (9) timegravityaccelerometermeanvalueindirectionx : mean value of time domain signals for the gravity acceleration signals in the X direction  (corresponds to 'tGravityAcc-mean()-X' in the original data sets)
+###### (9) timegravityaccelerometermeanvalueindirectionx : 
+
+Mean value of time domain signals for the gravity acceleration signals in the X direction  (corresponds to 'tGravityAcc-mean()-X' in the original data sets)
 
 
-- (10) timegravityaccelerometermeanvalueindirectiony : mean value of time domain signals for the gravity acceleration signals in the Y direction  (corresponds to 'tGravityAcc-mean()-Y' in the original data sets)
+###### (10) timegravityaccelerometermeanvalueindirectiony : 
+
+Mean value of time domain signals for the gravity acceleration signals in the Y direction  (corresponds to 'tGravityAcc-mean()-Y' in the original data sets)
 
 
-- (11) timegravityaccelerometermeanvalueindirectionz : mean value of time domain signals for the gravity acceleration signals in the Z direction  (corresponds to 'tGravityAcc-mean()-Z' in the original data sets)
+###### (11) timegravityaccelerometermeanvalueindirectionz : 
+
+Mean value of time domain signals for the gravity acceleration signals in the Z direction  (corresponds to 'tGravityAcc-mean()-Z' in the original data sets)
 
 
-- (12) timegravityaccelerometerstandarddeviationindirectionx : standard deviation of time domain signals for the gravity acceleration signals in the X direction  (corresponds to 'tGravityAcc-std()-X' in the original data sets)
+###### (12) timegravityaccelerometerstandarddeviationindirectionx : 
+
+Standard deviation of time domain signals for the gravity acceleration signals in the X direction  (corresponds to 'tGravityAcc-std()-X' in the original data sets)
 
 
-- (13) timegravityaccelerometerstandarddeviationindirectiony : standard deviation of time domain signals for the gravity acceleration signals in the Y direction  (corresponds to 'tGravityAcc-std()-Y' in the original data sets)
+###### (13) timegravityaccelerometerstandarddeviationindirectiony : 
+
+Standard deviation of time domain signals for the gravity acceleration signals in the Y direction  (corresponds to 'tGravityAcc-std()-Y' in the original data sets)
 
 
-- (14) timegravityaccelerometerstandarddeviationindirectionz : standard deviation of time domain signals for the gravity acceleration signals in the Z direction  (corresponds to 'tGravityAcc-std()-Z' in the original data sets)
+###### (14) timegravityaccelerometerstandarddeviationindirectionz : 
+
+Standard deviation of time domain signals for the gravity acceleration signals in the Z direction  (corresponds to 'tGravityAcc-std()-Z' in the original data sets)
 
 
-- (15) timebodyaccelerometerjerkmeanvalueindirectionx : mean value of time based Jerk signals for the body linear acceleration in the X direction  (corresponds to 'tBodyAccJerk-mean()-X' in the original data sets)
+###### (15) timebodyaccelerometerjerkmeanvalueindirectionx : 
+
+Mean value of time based Jerk signals for the body linear acceleration in the X direction  (corresponds to 'tBodyAccJerk-mean()-X' in the original data sets)
 
 
-- (16) timebodyaccelerometerjerkmeanvalueindirectiony : mean value of time based Jerk signals for the body linear acceleration in the Y direction  (corresponds to 'tBodyAccJerk-mean()-Y' in the original data sets)
+###### (16) timebodyaccelerometerjerkmeanvalueindirectiony : 
+
+Mean value of time based Jerk signals for the body linear acceleration in the Y direction  (corresponds to 'tBodyAccJerk-mean()-Y' in the original data sets)
 
 
-- (17) timebodyaccelerometerjerkmeanvalueindirectionz : mean value of time based Jerk signals for the body linear acceleration in the Z direction  (corresponds to 'tBodyAccJerk-mean()-Z' in the original data sets)
+###### (17) timebodyaccelerometerjerkmeanvalueindirectionz : 
+
+Mean value of time based Jerk signals for the body linear acceleration in the Z direction  (corresponds to 'tBodyAccJerk-mean()-Z' in the original data sets)
