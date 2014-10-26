@@ -22,12 +22,12 @@ Running the full script in 'run_analysis.R' will create a tidy data set that con
 - (2) subject : There are 30 participants (i.e. subjects) in total.  They are numbered from 1 to 30.
 
 
-***** Note: 
+##### Note: 
 
 From the resulting data set, it is observed that every subject had participated in every activity.  Hence there should be (30 x 6) = 180 observations, which is in line with the resulting tidy data set.
 
 
-***** Note: 
+##### Note: 
 
 * Variables (3) to (68) represent feature vectors (or the derivatives).  The values of these variables are computed from the mean of each feature measurement by activity and subject.
 
