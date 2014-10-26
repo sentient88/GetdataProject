@@ -22,7 +22,7 @@ For more details on the project, please refer to README file located in the same
 
 * The full explanation on how these features are measured and calculated can be referenced from 'features_info.txt' in the original data sets.
 
-* Relevant extract from 'features_info.txt' is included at the bottom of this file.
+* Relevant extract from 'features_info.txt' is included at the bottom of this page.
 
 
 ====================
@@ -533,30 +533,31 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
+
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-....
-....
+- mean(): Mean value
+- std(): Standard deviation
+- ....
+- ....
 
 
 Note:  The above 2 variables 'mean()' and 'std()' are being used in the project.  There are other variables like 'min()' and 'max()' specified in the 'features_info.txt' which are not mentioned here as they are not being used for the purpose of this project.

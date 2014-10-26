@@ -23,7 +23,7 @@ You should create one R script called run_analysis.R that does the following :
 
 ==============
 
-##### Background of the original data sets 
+##### Background information of the original data sets 
 
 (Extracted from README file within the zip file) 
 
